@@ -4,29 +4,22 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 //owmner v card
-global.ytname = "YT: GlobalTechInfo" //ur yt chanel name
 global.socialm = "GitHub: GlobalTechInfo" //ur github or insta name
-global.location = "Pakistan, Karachi, Karachi" //ur location
+global.location = "lagos, abuja" //ur location
 
 //new
-global.botname = '𝙂𝙇𝙊𝘽𝘼𝙇-𝙓𝙈𝘿' //ur bot name
-global.ownernumber = ['923444844060'] //ur owner number, dont add more than one
-global.ownername = '© GlobalTechInfo' //ur owner name
-global.websitex = "https://www.youtube.com/@GlobalTechInfo"
-global.wagc = "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07"
+global.botname = 'LICKY_BOT2.0' //ur bot name
+global.ownernumber = ['2349069922503'] //ur owner number, dont add more than one
+global.ownername = '© AGENT911' //ur owner name
+global.wagc = ""
 global.themeemoji = '🪀'
 global.wm = "Global Bot Inc."
 global.botscript = 'https://github.com/GlobalTechInfo/GLOBAL-XMD' //script link
 global.packname = "Sticker By"
-global.author = "GlobalTechInfo\n\n+923444844060"
-global.creator = "923444844060@s.whatsapp.net"
+global.author = "classic lucky"
+global.creator = "09118743413"
 global.xprefix = '.'
-global.premium = ["923444844060"] // Premium User
-
-//channel id
-global.xchannel = {
-	jid: '120363319098372999@newsletter'
-	}
+global.premium = ["2349069922503"] // Premium User
 
 //bot sett
 global.typemenu = 'v2' // menu type 'v1' => 'v9'
@@ -77,3 +70,4 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 });
+
